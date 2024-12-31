@@ -7,6 +7,7 @@ import Statemanage1 from "../src/day3/component/statemanage1";
 import Propexample3 from './day4/propexample3';
 import Purefun1 from './day4/purefun1';
 import Mycustbutton from './day4/purefun2';
+import Hooks from './day4/hooks';
 
 
 function App() {
@@ -21,13 +22,15 @@ function App() {
     {/* <Purefun1 var1={false} var2={"hello"}/>
     <Purefun1 var1={true} var2={"love you"}/> */}
 
-    <Mycustbutton var2={"bhakti"} />
-    <br />
+    {/* <Mycustbutton var2={"bhakti"} />
+    <br/>
     <Mycustbutton var1={true} var2={"bhakti"}  />
     <br />
     <Mycustbutton var2={"6ceb"} />
     <br />
-    <Mycustbutton var1={true} var2={"B.tech"} />
+    <Mycustbutton var1={true} var2={"B.tech"} /> */}
+
+    <Hooks/>
     </>
   )
 }
