@@ -21,9 +21,9 @@ function App() {
     {/* <Purefun1 var1={false} var2={"hello"}/>
     <Purefun1 var1={true} var2={"love you"}/> */}
 
-    <Mycustbutton />
+    <Mycustbutton var2={"bhakti"} />
     <br />
-    <Mycustbutton var1={true} />
+    <Mycustbutton var1={true} var2={"bhakti"}  />
     <br />
     <Mycustbutton var2={"6ceb"} />
     <br />
