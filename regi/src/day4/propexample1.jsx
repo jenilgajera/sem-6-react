@@ -1,13 +1,14 @@
-import React from 'react'
-class Propexample1 extends React.Component {
+import React from "react";
+
+class Mybutton extends React.Component {
   render() {
-    const {prop1, xyz} =this.state;
-    
+    // Destructure props
+    const { prop1, xyz } = this.props;
     return (
-      <div>propexample1</div>
-    )
+      <button disabled={prop1}>{xyz}
+      </button>
+    );
   }
 }
 
-
-export default Propexample1;
+export default Mybutton;
