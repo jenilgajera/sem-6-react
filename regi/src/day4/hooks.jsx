@@ -1,5 +1,5 @@
 
-//jsutend and redux 
+//zuatate and redux 
 import {React,useEffect,useState} from "react";
 
 const Hooks=()=>{

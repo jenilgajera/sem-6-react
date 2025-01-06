@@ -8,6 +8,9 @@ import Propexample3 from './day4/propexample3';
 import Purefun1 from './day4/purefun1';
 import Mycustbutton from './day4/purefun2';
 import Hooks from './day4/hooks';
+import StateExample from './day5/hooksexaple1';
+import Stateexaple2 from './day5/Stateexaple2';
+import Statemgt3 from './day5/Statemgt3';
 
 
 function App() {
@@ -30,7 +33,9 @@ function App() {
     <br />
     <Mycustbutton var1={true} var2={"B.tech"} /> */}
 
-    <Hooks/>
+    {/* <StateExample/> */}
+    {/* <Stateexaple2/> */}
+    <Statemgt3/>
     </>
   )
 }
