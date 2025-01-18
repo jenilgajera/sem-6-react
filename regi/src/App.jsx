@@ -11,6 +11,11 @@ import Hooks from './day4/hooks';
 import StateExample from './day5/hooksexaple1';
 import Stateexaple2 from './day5/Stateexaple2';
 import Statemgt3 from './day5/Statemgt3';
+import Exce1 from './day6/Exce1';
+import Exce2 from './day6/Exce2';
+import Exce3 from './day6/Exce3';
+import Exce4 from './day6/Exce4';
+import ApiSimulation from './day7/hookeffcts';
 
 
 function App() {
@@ -35,7 +40,12 @@ function App() {
 
     {/* <StateExample/> */}
     {/* <Stateexaple2/> */}
-    <Statemgt3/>
+    {/* <Statemgt3/> */}
+    {/* <Exce1/> */}
+    {/* <Exce2/> */}
+    {/* <Exce3/> */}
+    {/* <Exce3/> */}
+    <ApiSimulation/>
     </>
   )
 }
