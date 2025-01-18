@@ -16,6 +16,7 @@ import Exce2 from './day6/Exce2';
 import Exce3 from './day6/Exce3';
 import Exce4 from './day6/Exce4';
 import ApiSimulation from './day7/hookeffcts';
+import Hooksuseeffect1 from './day7/hookeffcts';
 
 
 function App() {
