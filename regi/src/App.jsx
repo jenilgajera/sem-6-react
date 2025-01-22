@@ -17,6 +17,9 @@ import Exce3 from './day6/Exce3';
 import Exce4 from './day6/Exce4';
 import ApiSimulation from './day7/hookeffcts';
 import Hooksuseeffect1 from './day7/hookeffcts';
+import Image_Slider from './day8/Image_Slider';
+import CustomCom from './day9/Compo1';
+import Register from './day9/Register';
 
 
 function App() {
@@ -46,9 +49,15 @@ function App() {
     {/* <Exce2/> */}
     {/* <Exce3/> */}
     {/* <Exce3/> */}
-    <ApiSimulation/>
+    {/* <ApiSimulation/> */}
+    {/* <Image_Slider/> */}
+    {/* <CustomCom/> */}
+    <Register/>
     </>
   )
 }
 
 export default App
+
+//3. implement image changer with useffect 
+//take 4 image list change image at interval of 4 second
